@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+}
+
+body, form, button, div, input, html {
+  background-image: url('http://78.media.tumblr.com/tumblr_m8f55hYRyO1qfqip3o1_500.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 2vw;
+  text-align: center;
+  padding: 2vw;
+  margin: 2vw;
+  color: white;
+  filter: blur(.5);
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+  font-size: 8vw;
+  background-image: url('http://78.media.tumblr.com/tumblr_m8f55hYRyO1qfqip3o1_500.gif');
+  filter: hue-rotate(90deg);
+}
+
+button:hover {
+  filter: invert(1);
+  font-size: 2.5vw;
+}
